@@ -16,6 +16,7 @@
                 Age = 30,
                 Name = "Emre"
             },
+            
             new User
             {
                 Age = 25,
@@ -27,7 +28,8 @@
 
         for (int i = 0; i <users.Count; i++)
         {            
-            int age = users[i].Age;
+            int age = users[1].Age;
+
             var firstAge = users[0].Age;
 
             Console.WriteLine(firstAge);
